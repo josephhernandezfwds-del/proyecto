@@ -42,13 +42,14 @@ async function postcondiciones(objcondiciones) {
 export { postcondiciones }
 
 
-async function putcondiciones(objcondiciones) {
+async function putcondiciones(objcondiciones,endpoint) {
       try {
-            const response = await fetch('', {
+            const response = await fetch(`http://localhost:3001/${endpoint}`, {
                   method: 'PATCH',
                   headers: {
                         'Content-Type': 'application/json'
                   },
+                  body: JSON.stringify(objcondiciones)
                   
             });
             const condiciones = await response.json()
