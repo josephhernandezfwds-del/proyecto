@@ -97,12 +97,14 @@ loginBtn.addEventListener("click", function() {
   //1234
 
   
-  if (!user) {
-    window.location.href = "login.html";
-  }
+//   if (!user) {
+//     window.location.href = "login.html";
+//   }
 
   
-  btnCerrar.addEventListener("click", function () {
-    localStorage.removeItem("usuario");
-    window.location.href = "login.html"; 
-  });
+//   btnCerrar.addEventListener("click", function () {
+//     localStorage.removeItem("usuario");
+//     window.location.href = "login.html"; 
+//   });
+//restamo de computadoras funcionaando con el de.json 
+
