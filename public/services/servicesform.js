@@ -24,7 +24,7 @@ export { getcondiciones }
     
 async function postcondiciones(objcondiciones) {
       try {
-            const response = await fetch('', {
+            const response = await fetch(`http://localhost:3001/${endpoint}`, {
                   method: 'POST',
                   headers: {
                         'Content-Type': 'application/json'
@@ -65,7 +65,7 @@ export { putcondiciones }
 
 async function deletecondiciones(objcondiciones) {
       try {
-            const response = await fetch('', {
+            const response = await fetch(`http://localhost:3001/${endpoint}`, {
                   method: 'DELETE',
                   headers: {
                         'Content-Type': 'application/json'
