@@ -22,9 +22,9 @@ async function getcondiciones(endpoint) {
 }
 export { getcondiciones }
     
-async function postcondiciones(objcondiciones) {
+async function postcondiciones(objcondiciones,endpoint) {
       try {
-            const response = await fetch('', {
+            const response = await fetch(`http://localhost:3001/${endpoint}`, {
                   method: 'POST',
                   headers: {
                         'Content-Type': 'application/json'
@@ -63,9 +63,9 @@ async function putcondiciones(objcondiciones,endpoint) {
 export { putcondiciones }
 
 
-async function deletecondiciones(objcondiciones) {
+async function deletecondiciones(endpoint) {
       try {
-            const response = await fetch('', {
+            const response = await fetch(`http://localhost:3001/${endpoint}`, {
                   method: 'DELETE',
                   headers: {
                         'Content-Type': 'application/json'

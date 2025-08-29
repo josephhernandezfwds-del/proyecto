@@ -1,20 +1,22 @@
-    import { postcondiciones } from "../services/servicesform.js";
-    const nombre = document.getElementById("nombre").value;
-    const email = document.getElementById("email").value;
-    const password = document.getElementById("password").value;
-    const confirmarContra = document.getElementById("confirmar").value;
-    const btnAgg = document.getElementById("btnAgg")
+import { postcondiciones } from "../services/servicesform.js";
+const nombre = document.getElementById("nombre");
+const sede = document.getElementById("sede")
+const fechanacimiento = document.getElementById("fechanacimiento");
+const correo = document.getElementById("correo");
+const contraseña = document.getElementById("contraseña");
+const btn1 = document.getElementById("btn1");
 
-    btnAgg.addEventListener("click",nuevoUsuario)
 
-    async function nuevoUsuario() {
-      const usuario = {
-        nombre: nombre.value,
-        email: email.value,
-        password: password.value,
-        confirmar: confirmar.value,
-      }  
+btn1.addEventListener("click",agregarRegistro)
 
-      const peticion = await postcondiciones(usuario,"usuarios")
-      
-   }
+async function agregarRegistro() {
+    const usuario = { 
+           nombre: nombre.value,
+           sede: sede.value,
+           fechanacimiento: fechanacimiento.value,
+           correo: correo.value,
+           contraseña: contraseña.value
+    }
+
+    const peticion = await postcondiciones(usuario,"usuarios")
+}

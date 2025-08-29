@@ -1,0 +1,76 @@
+
+
+div{
+  width: 300x;                /* Ancho fijo */
+  padding: 50px;               /* Espacio interno */
+  margin: 60x auto;           /* Centrado horizontal */
+  border-radius: 10px;         /* Bordes redondeados */
+  text-align: center;          /* Centrar texto */
+  
+}
+
+
+h2{
+    text-align: center;
+    color: rgb(61, 127, 248);
+}
+
+
+body{
+    background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body {
+  background-color: #f9fbfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+
+.login-box h2 {
+  margin-bottom: 1rem;
+  color: #2c0930;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #9e26b644;
+  border-radius: 6px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #007bff;
+  color: rgb(241, 237, 239);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
