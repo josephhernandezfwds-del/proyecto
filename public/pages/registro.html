@@ -7,30 +7,35 @@
     <link rel="stylesheet" href="../css/registro.css">
 </head>
 <body>
-    
+    <!-- Crear más inputs que definan las características de una cuenta
+        .Nombre -> Debe tener un id
+        .Sede
+        .Fecha nacimiento
+        .Correo
+        .Contraseña
+    -->
     <div id="registro">
-      <h2>Log in page</h2>
+      <h2>Registro</h2>
       <div class="login-box">
-      <label for="usuario">Email or Phone Number</label>
-      <input type="text" id="usuario" required>
+      <label for="nombre">Nombre completo</label>
+      <input type="text" id="nombre" required>
       <br>
-      <label for="contraseña">password:</label>
-      <input type="password" id="contrasena" required>
+      <label for="sede">sede</label>
+      <input type="text" id="sede">
+      <br>
+      <label for="fecha de nacimiento">fecha de nacimiento</label>
+      <input type="date" id="fechanacimiento">
+      <br>
+      <label for="Correo">correo</label>
+      <input type="text" id="correo">
+      <br>
+      <label for="contraseña">contraseña:</label>
+      <input type="contraseña" id="contraseña" required>
        <br>
-      <button type="submit">Log In</button>
+      <button type="submit" id="btn1">registrar</button>
       <br><br>
-      <button type="submit">Forgot account?</button>
-      <br><br>
-      <button type="submit">Create New Account</button>
+      
     </div>
-
-
-
-
-
-
-
-
-
 </body>
+<script type="module" src="../js/registro.js"></script>
 </html>

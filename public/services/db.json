@@ -1,3 +1,45 @@
 {
-   "usuarios":[],"permisos":[]    
+  "usuarios": [
+    {
+      "id": "d79c",
+      "nombre": {},
+      "sede": {},
+      "fechanacimiento": {},
+      "correo": {},
+      "contraseña": {}
+    },
+    {
+      "id": "5deb",
+      "nombre": {},
+      "sede": {},
+      "fechanacimiento": {},
+      "correo": {},
+      "contraseña": {}
+    },
+    {
+      "id": "6434",
+      "nombre": {},
+      "sede": {},
+      "fechanacimiento": {},
+      "correo": {},
+      "contraseña": {}
+    },
+    {
+      "id": "e7f4",
+      "nombre": "Vale",
+      "sede": "yyyyyt5646776",
+      "fechanacimiento": "2025-08-01",
+      "correo": "galiinahdhd",
+      "contraseña": "87866687555"
+    },
+    {
+      "id": "503d",
+      "nombre": "",
+      "sede": "",
+      "fechanacimiento": "",
+      "correo": "",
+      "contraseña": ""
+    }
+  ],
+  "permisos": []
 }
