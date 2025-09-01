@@ -1,51 +1,99 @@
 {
   "usuarios": [
     {
-      "id": "d79c",
-      "nombre": {},
-      "sede": {},
-      "fechanacimiento": {},
-      "correo": {},
-      "contraseña": {}
+      "id": "12dd",
+      "nombre": "Prueba",
+      "sede": "Prueba",
+      "fechanacimiento": "2010-10-10",
+      "correo": "prueba@gmail.com",
+      "contraseña": "1234"
     },
     {
-      "id": "5deb",
-      "nombre": {},
-      "sede": {},
-      "fechanacimiento": {},
-      "correo": {},
-      "contraseña": {}
+      "id": "2124",
+      "nombre": "Prueba",
+      "sede": "Prueba",
+      "fechanacimiento": "2010-10-10",
+      "correo": "prueba@gmail.com",
+      "contraseña": "1234"
     },
     {
-      "id": "6434",
-      "nombre": {},
-      "sede": {},
-      "fechanacimiento": {},
-      "correo": {},
-      "contraseña": {}
+      "id": "97e1",
+      "nombre": "Prueba",
+      "sede": "Prueba",
+      "fechanacimiento": "2010-10-10",
+      "correo": "prueba@gmail.com",
+      "contraseña": "1234"
     },
     {
-      "id": "e7f4",
-      "nombre": "Vale",
-      "sede": "yyyyyt5646776",
-      "fechanacimiento": "2025-08-01",
-      "correo": "galiinahdhd",
-      "contraseña": "87866687555"
+      "id": "969f",
+      "nombre": "Prueba",
+      "sede": "Prueba",
+      "fechanacimiento": "2010-10-10",
+      "correo": "prueba@gmail.com",
+      "contraseña": "1234"
     },
     {
-      "id": "503d",
-      "nombre": "",
-      "sede": "",
-      "fechanacimiento": "",
-      "correo": "",
-      "contraseña": ""
+      "id": "f0cc",
+      "nombre": "Prueba",
+      "sede": "Prueba",
+      "fechanacimiento": "2010-10-10",
+      "correo": "prueba@gmail.com",
+      "contraseña": "1234"
     },
     {
-      "id": "580d",
-      "nombre": "Vale",
-      "sede": "sanfrancisco",
-      "fechanacimiento": "2025-08-29",
-      "correo": "britamy@gmail.com",
+      "id": "8fc9",
+      "nombre": "Guido Aguilar",
+      "sede": "San Juan",
+      "fechanacimiento": "2025-08-16",
+      "correo": "guidoaguilar@gmail.com",
+      "contraseña": "1234"
+    },
+    {
+      "id": "24ba",
+      "nombre": "Prueba",
+      "sede": "Prueba",
+      "fechanacimiento": "2010-10-10",
+      "correo": "prueba@gmail.com",
+      "contraseña": "1234"
+    },
+    {
+      "id": "23bd",
+      "nombre": "Prueba",
+      "sede": "Prueba",
+      "fechanacimiento": "2010-10-23",
+      "correo": "prueba@gmail.com",
+      "contraseña": "1234"
+    },
+    {
+      "id": "33bf",
+      "nombre": "Prueba",
+      "sede": "Prueba",
+      "fechanacimiento": "2010-10-23",
+      "correo": "prueba@gmail.com",
+      "contraseña": "1234"
+    },
+    {
+      "id": "0f24",
+      "nombre": "Prueba",
+      "sede": "Prueba",
+      "fechanacimiento": "2010-10-23",
+      "correo": "prueba@gmail.com",
+      "contraseña": "1234"
+    },
+    {
+      "id": "bcbe",
+      "nombre": "Prueba",
+      "sede": "Prueba",
+      "fechanacimiento": "2010-10-23",
+      "correo": "prueba@gmail.com",
+      "contraseña": "1234"
+    },
+    {
+      "id": "cd9f",
+      "nombre": "Prueba",
+      "sede": "Prueba",
+      "fechanacimiento": "2010-10-23",
+      "correo": "prueba@gmail.com",
       "contraseña": "1234"
     }
   ],

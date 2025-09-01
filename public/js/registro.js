@@ -20,3 +20,4 @@ async function agregarRegistro() {
 
     const peticion = await postcondiciones(usuario,"usuarios")
 }
+
