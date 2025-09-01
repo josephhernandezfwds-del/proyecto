@@ -55,11 +55,15 @@ async function putcondiciones(objcondiciones,endpoint) {
             const condiciones = await response.json()
             return condiciones
       } catch (error) {
-            console.error("Hay un error al obtener las condiciones", error)
-            throw error
+
+    console.error("Hay un error al obtener las condiciones", error);
+    // Retornar un valor por defecto para que la aplicación siga funcionando
+    return null; 
+}
+
 
       }
-}
+
 export { putcondiciones }
 
 
