@@ -39,6 +39,14 @@
       "fechanacimiento": "",
       "correo": "",
       "contraseña": ""
+    },
+    {
+      "id": "580d",
+      "nombre": "Vale",
+      "sede": "sanfrancisco",
+      "fechanacimiento": "2025-08-29",
+      "correo": "britamy@gmail.com",
+      "contraseña": "1234"
     }
   ],
   "permisos": []
