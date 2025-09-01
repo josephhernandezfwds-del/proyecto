@@ -1,0 +1,33 @@
+/* ----------- Reset ----------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ----------- General ----------- */
+body {
+  background: #f5f9ff; /* fondo claro */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ----------- Header ----------- */
+header {
+  background: #004aad;  /* azul institucional */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #ffcd00; /* amarillo contraste */
+}
+
+header h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+/* ----------- Navegación ----------- */
+nav {
+  background: #003580
+}

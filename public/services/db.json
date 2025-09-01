@@ -1,3 +1,31 @@
 {
-   "usuarios":[],"permisos":[]    
+  "usuarios": [],
+  "permisos": [
+    {
+      "id": "1b86",
+      "userID": "estudiante123",
+      "password": "1234",
+      "usuario": "uiklnkbkj",
+      "fechaSalida": "2025-08-29",
+      "horaSalida": "10:14",
+      "fechaRegreso": "2025-08-29",
+      "horaRegreso": "10:15",
+      "codigo": "a",
+      "firma": "llllll",
+      "estado": "aprobado"
+    },
+    {
+      "id": "8398",
+      "userID": "estudiante123",
+      "password": "1234",
+      "usuario": "uiklnkbkj",
+      "fechaSalida": "2025-08-29",
+      "horaSalida": "10:14",
+      "fechaRegreso": "2025-08-29",
+      "horaRegreso": "10:15",
+      "codigo": "a",
+      "firma": "llllll",
+      "estado": "aprobado"
+    }
+  ]
 }

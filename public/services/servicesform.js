@@ -22,9 +22,9 @@ async function getcondiciones(endpoint) {
 }
 export { getcondiciones }
     
-async function postcondiciones(objcondiciones) {
+async function postcondiciones(endpoint,objcondiciones) {
       try {
-            const response = await fetch('', {
+            const response = await fetch(`http://localhost:3001/${endpoint}`, {
                   method: 'POST',
                   headers: {
                         'Content-Type': 'application/json'
@@ -55,17 +55,21 @@ async function putcondiciones(objcondiciones,endpoint) {
             const condiciones = await response.json()
             return condiciones
       } catch (error) {
-            console.error("Hay un error al obtener las condiciones", error)
-            throw error
+
+    console.error("Hay un error al obtener las condiciones", error);
+    // Retornar un valor por defecto para que la aplicación siga funcionando
+    return null; 
+}
+
 
       }
-}
+
 export { putcondiciones }
 
 
 async function deletecondiciones(objcondiciones) {
       try {
-            const response = await fetch('', {
+            const response = await fetch(`http://localhost:3001/${endpoint}`, {
                   method: 'DELETE',
                   headers: {
                         'Content-Type': 'application/json'

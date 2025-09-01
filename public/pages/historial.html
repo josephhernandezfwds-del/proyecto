@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Permisos</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background: #f4f4f4;
+    }
+    #paginacion {
+      margin-top: 15px;
+      text-align: center;
+    }
+    #paginacion button {
+      margin: 0 5px;
+      padding: 6px 12px;
+      border: 1px solid #333;
+      background: #eee;
+      cursor: pointer;
+    }
+    #paginacion button.active {
+      background: #333;
+      color: #fff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Lista de Permisos</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Usuario</th>
+        <th>Fecha Salida</th>
+        <th>Hora Salida</th>
+        <th>Fecha Regreso</th>
+        <th>Hora Regreso</th>
+        <th>Código</th>
+        <th>Firma</th>
+      </tr>
+    </thead>
+    <tbody id="tablaPermisos"></tbody>
+  </table>
+
+  <div id="paginacion"></div>
+<link rel="stylesheet" href="../css/historial.css">
+<script src="../js/historial.js"></script>
+</body>
+</html>
