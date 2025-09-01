@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="../css/historial.css">
+</head>
+<body>
+    <h1>Historial de Solicitudes de Alumnos</h1>
+
+  <div class="buscador">
+    <input type="text" id="filtroEstudiante" placeholder="Buscar por estudiante">
+    <input type="date" id="filtroFecha">
+    <select id="filtroEstado">
+      <option value="">Todos los estados</option>
+      <option value="Rechazada">Rechazada</option>
+      <option value="Pendiente">Pendiente</option>
+      <option value="Aprobada">Aprobada</option>
+    </select>
+     <button onclick="filtrarSolicitudes()">Filtrar</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Estudiante</th>
+        <th>Fecha de salida</th>
+        <th>Fecha de regreso</th>
+        <th>Código de computadora</th>
+        <th>Estado</th>
+      </tr>
+    </thead>
+    <tbody id="tablaSolicitudes">
+    </tbody>
+  </table>
+
+<script type="module" src="../js/historial.js"></script>
+</body>
+
+</html>
