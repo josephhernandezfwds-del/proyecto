@@ -1,33 +1,11 @@
-/* ----------- Reset ----------- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Arial, sans-serif;
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-shadow: rgb(45, 48, 51);
 }
+body{
+ background: #fc00ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-/* ----------- General ----------- */
-body {
-  background: #f5f9ff; /* fondo claro */
-  color: #333;
-  line-height: 1.6;
-}
-
-/* ----------- Header ----------- */
-header {
-  background: #004aad;  /* azul institucional */
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-  border-bottom: 4px solid #ffcd00; /* amarillo contraste */
-}
-
-header h1 {
-  font-size: 2rem;
-  letter-spacing: 1px;
-}
-
-/* ----------- Navegación ----------- */
-nav {
-  background: #003580
 }

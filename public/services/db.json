@@ -95,7 +95,71 @@
       "fechanacimiento": "2010-10-23",
       "correo": "prueba@gmail.com",
       "contraseña": "1234"
+    },
+    {
+      "id": "6274",
+      "nombre": "Prueba",
+      "sede": "Prueba",
+      "fechanacimiento": "2010-10-10",
+      "correo": "prueba@gmail.com",
+      "contraseña": "1234"
+    },
+    {
+      "id": "5763",
+      "nombre": "Prueba11111",
+      "sede": "Prueba",
+      "fechanacimiento": "2010-10-10",
+      "correo": "prueba@gmail.com",
+      "contraseña": "1234",
+      "rol": "admin"
+    },
+    {
+      "id": "1145",
+      "nombre": "Pedro Gadicto",
+      "sede": "Las Palmas",
+      "fechanacimiento": "2001-11-10",
+      "correo": "pedro@gadicto.com",
+      "contraseña": "1234"
+    },
+    {
+      "id": "ee13",
+      "nombre": "Pedro Gadicto",
+      "sede": "Las Palmas",
+      "fechanacimiento": "2001-11-10",
+      "correo": "pedro@gadicto.com",
+      "contraseña": "1234"
+    },
+    {
+      "id": "4734",
+      "nombre": "Elena Nito del Bosque",
+      "sede": "Puntarenas",
+      "fechanacimiento": "1230-12-12",
+      "correo": "AAAAAAA@gmail.com",
+      "contraseña": "Bosque700"
     }
   ],
-  "permisos": []
+  "permisos": [
+    {
+      "id": "ce8d",
+      "userID": "1145",
+      "fechaSalida": "2025-09-02",
+      "horaSalida": "14:03",
+      "fechaRegreso": "2025-09-04",
+      "horaRegreso": "08:00",
+      "codigo": "22pio123",
+      "firma": "AAAAAA",
+      "estado": "aprobado"
+    },
+    {
+      "id": "e432",
+      "userID": "4734",
+      "fechaSalida": "2150-02-22",
+      "horaSalida": "16:00",
+      "fechaRegreso": "2151-12-25",
+      "horaRegreso": "00:00",
+      "codigo": "TQMHLY",
+      "firma": "asaasdwfdewfewfewf",
+      "estado": "rechazado"
+    }
+  ]
 }

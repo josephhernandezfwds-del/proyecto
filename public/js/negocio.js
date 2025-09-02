@@ -9,3 +9,5 @@ export function validarSolicitud(solicitud) {
 export function estadoValido(estado) {
   return ["pendiente", "aprobado", "rechazado"].includes(estado);
 }
+
+

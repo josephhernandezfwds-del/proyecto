@@ -1,16 +1,52 @@
-import { postcondiciones } from "../services/servicesform.js";
-const filtroEstudiante = document.getElementById("filtroEstudiante");
-const filtroFecha = document.getElementById("filtroFecha");
-const filtroEstado = document.getElementById("filtroEstado");
-const tablaSolicitudes = document.getElementById("tablaSolicitudes");
+import { getcondiciones} from "../services/servicesform.js";
+const tablaHistorial = document.getElementById("tablaHistorial")
 
-async function agregarHistorial() {
-const historial = {
-  filtroEstudiante: filtroEstudiante.value,
-  filtroFecha: filtroFecha.value,
-  filtroEstado: filtroEstado.value, 
-  tablaSolicitudes: tablaSolicitudes.value,
-  }  
+    // {
+    //   "id": "16b8",
+    //   "userID": "12dd",
+    //   "fechaSalida": "2025-09-02",
+    //   "horaSalida": "10:10",
+    //   "fechaRegreso": "2010-10-10",
+    //   "horaRegreso": "10:10",
+    //   "codigo": "10",
+    //   "firma": "10"
+    // }
 
-  const peticion = await postcondiciones (historial, "historial")
+async function traerSolicitudes() {
+  const permisos = await getcondiciones("permisos")
+  permisos.forEach((permiso)=>{
+      const tdEstudiante = document.createElement("td")
+      const tdFechaSalida = document.createElement("td")
+      const tdFechaRegreso = document.createElement("td")
+      const tdCodigo = document.createElement("td")
+      const tdEstado = document.createElement("td")
+      const trFila = document.createElement("tr")
+
+      tdEstudiante.textContent = permiso.userID
+      tdFechaSalida.textContent = permiso.fechaSalida
+      tdFechaRegreso.textContent = permiso.fechaRegreso
+      tdCodigo.textContent = permiso.codigo
+      tdEstado.textContent = permiso.estado
+
+
+      trFila.appendChild(tdEstudiante)
+      trFila.appendChild(tdFechaSalida)
+      trFila.appendChild(tdFechaRegreso)
+      trFila.appendChild(tdCodigo)
+      trFila.appendChild(tdEstado)
+
+      tablaHistorial.appendChild(trFila)
+  })
+  
 }
+traerSolicitudes()
+
+
+ 
+ 
+
+
+ 
+
+
+
